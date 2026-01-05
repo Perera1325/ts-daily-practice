@@ -1,1 +1,5 @@
-console.log('Day 1: TypeScript practice');
+function greet(name: string): string {
+  return `Hello, ${name}! Welcome to TypeScript.`;
+}
+
+console.log(greet("Vinod"));
